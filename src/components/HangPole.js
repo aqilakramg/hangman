@@ -20,7 +20,7 @@ const HangPole = ({wrongLetters}) => {
         {/* <!-- Arms --> */}
         {errors > 2 && <line x1="140" y1="120" x2="120" y2="100"/>}
         {errors > 3 && <line x1="140" y1="120" x2="160" y2="100"/>}
-        
+        w
         {/* <!-- Legs --> */}
         {errors > 4 && <line x1="140" y1="150" x2="120" y2="180"/>}
         {errors > 5 && <line x1="140" y1="150" x2="160" y2="180"/>}
